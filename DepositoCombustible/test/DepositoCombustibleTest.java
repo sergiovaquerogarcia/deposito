@@ -21,7 +21,7 @@ public class DepositoCombustibleTest {
 	@Test
 	public final void testEstaVacio() {
 		DepositoCombustible tank = new DepositoCombustible (40.0,30.0);	
-		tank.consumir(30);
+		tank.consumir(50);
 		assertEquals(true,tank.estaVacio());
 	}
 
